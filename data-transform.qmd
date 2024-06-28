@@ -105,8 +105,7 @@ flights |>
       relocate(distance)
     ```
 
-6.  The order doesn't matter because we filter based on a condition, not based on row number.
-
+6.  Filter first because it reduces the number of rows to arrange, which has requires more steps.
 ## 4.3.5 Exercises {.unnumbered}
 
 1.  I would expect `dep_time` to be `sched_dep_time + dep_delay`.
